@@ -1,0 +1,47 @@
+:root {
+  --primary: hsl(199, 64%, 74%);
+  --secondary: hsl(199, 64%, 54%);
+  --tertiary: hsl(199, 64%, 24%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  height: 35rem;
+  background-color: var(--primary);
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+}
+
+.banner-links {
+  font-size: 1.5rem;
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  border-color: var(--primary);
+}
+
+.btn:hover {
+  background-color: var(--primary);
+  border-color: var(--secondary);
+}
+
+a {
+  color: var(--secondary);
+}
+
+a:hover {
+  color: var(--tertiary);
+}
